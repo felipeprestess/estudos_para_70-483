@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 //o método T.Wait() é equivalente ao Join da thread que aguarda a finalização da task antes 
 //de continuar o código
 
-namespace Threads
+namespace GereciamentoDeFluxoDePrograma
 {
     class ThreadsUsandoTarefas
     {
@@ -21,11 +21,11 @@ namespace Threads
             Console.ReadKey();
         }
 
-         static void Tarefa()
+        static void Tarefa()
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Tarefa: {0}",i);
+                Console.WriteLine("Tarefa: {0}", i);
             }
         }
     }

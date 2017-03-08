@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciarFluxoDePrograma", "Threads\GerenciarFluxoDePrograma.csproj", "{DA04F60D-EDEF-46B2-861D-D5C164F0B3A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GereciamentoDeFluxoDePrograma", "GereciamentoDeFluxoDePrograma\GereciamentoDeFluxoDePrograma.csproj", "{FB870CDD-A170-4F0A-8D7F-8E33F8E6B67A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA04F60D-EDEF-46B2-861D-D5C164F0B3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA04F60D-EDEF-46B2-861D-D5C164F0B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA04F60D-EDEF-46B2-861D-D5C164F0B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA04F60D-EDEF-46B2-861D-D5C164F0B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB870CDD-A170-4F0A-8D7F-8E33F8E6B67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB870CDD-A170-4F0A-8D7F-8E33F8E6B67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB870CDD-A170-4F0A-8D7F-8E33F8E6B67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB870CDD-A170-4F0A-8D7F-8E33F8E6B67A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

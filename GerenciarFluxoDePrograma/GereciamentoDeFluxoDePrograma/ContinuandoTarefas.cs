@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 
 //Neste caso a tarefa “T2” só irá começar a executar quando a tarefa “T” finalizar.
 
-namespace Threads
+namespace GereciamentoDeFluxoDePrograma
 {
-    class ContinuandoTarefa
+    class ContinuandoTarefas
     {
         public static void Main()
         {
             Task<int> T = Task.Run(() => Tarefa());
-            Task<int> T2 = T.ContinueWith((i)  =>  Tarefa2(T.Result));
-            
+            Task<int> T2 = T.ContinueWith((i) => Tarefa2(T.Result));
+
             //T.Wait();
             Console.WriteLine(T.Result);
             Console.WriteLine(T2.Result);
-         
+
             Console.ReadKey();
         }
 

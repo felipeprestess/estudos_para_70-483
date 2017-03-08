@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -7,7 +10,7 @@ using System.Threading.Tasks;
 //própria CLR entende que deve esperar. Portanto, enquanto a Task não finalizar não teremos
 //o seu resultado e o processo ficará parado.
 
-namespace Threads
+namespace GereciamentoDeFluxoDePrograma
 {
     class TarefasRetornandoValores
     {

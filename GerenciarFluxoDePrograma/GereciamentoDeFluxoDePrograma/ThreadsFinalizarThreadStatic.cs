@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 
-namespace Threads
-{
+//Podemos marcar um campo com o atributo [ThreadStatic], isso faz com que cada thread
+//tenha uma cópia do campo, e não um valor global para todas. Se o atributo [ThreadStatic] 
+//for removido o que for modificado em uma thread será visto pelas outras.
 
-    //Podemos marcar um campo com o atributo [ThreadStatic], isso faz com que cada thread
-    //tenha uma cópia do campo, e não um valor global para todas. Se o atributo [ThreadStatic] 
-    //for removido o que for modificado em uma thread será visto pelas outras.
-    public static class ThreadsFinalizarThreadStatic
+namespace GereciamentoDeFluxoDePrograma
+{
+    class ThreadsFinalizarThreadStatic
     {
         [ThreadStatic]
         public static int num;
@@ -18,7 +15,7 @@ namespace Threads
         {
             Console.WriteLine("Thread: {0}",num);
 
-            new Thread(() =>
+            new Thread(()=> 
             {
                 for (int i = 0; i < 10; i++)
                 {
@@ -36,9 +33,10 @@ namespace Threads
                 }
             }).Start();
 
-            Console.WriteLine("Thread: {0}", num);
-
+            Console.WriteLine("Thread: {0}",num);
             Console.ReadKey();
         }
+
+
     }
 }
