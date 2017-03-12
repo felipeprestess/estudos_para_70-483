@@ -46,7 +46,6 @@
     <Compile Include="ContinuandoTarefas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TarefasContinuandoEmEstados.cs" />
     <Compile Include="TarefasRetornandoValores.cs" />
     <Compile Include="TesteThreads.cs" />
     <Compile Include="ThreadForegroundBackground.cs" />
