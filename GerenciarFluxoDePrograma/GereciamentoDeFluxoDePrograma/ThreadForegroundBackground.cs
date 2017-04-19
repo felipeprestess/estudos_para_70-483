@@ -19,7 +19,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class ThreadForegroundBackground
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             Thread t = new Thread(MetodoThread);
             t.IsBackground = true;//torna a thread background, dependendo da thread foreground (Principal)

@@ -11,7 +11,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class ContinuandoTarefas
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             Task<int> T = Task.Run(() => Tarefa());
             Task<int> T2 = T.ContinueWith((i) => Tarefa2(T.Result));

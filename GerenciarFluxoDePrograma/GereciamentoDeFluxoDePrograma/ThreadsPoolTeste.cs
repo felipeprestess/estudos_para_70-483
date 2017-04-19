@@ -16,7 +16,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class ThreadsPoolTeste
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             ThreadPool.QueueUserWorkItem(MetodoRetorno);
             Console.ReadKey();

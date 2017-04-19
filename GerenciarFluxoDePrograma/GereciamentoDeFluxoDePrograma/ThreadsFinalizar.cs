@@ -17,7 +17,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class ThreadsFinalizar
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             bool stop = false;
 

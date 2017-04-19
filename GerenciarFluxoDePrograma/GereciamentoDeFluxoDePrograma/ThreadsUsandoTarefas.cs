@@ -14,7 +14,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class ThreadsUsandoTarefas
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             Task T = Task.Run(() => Tarefa());
             T.Wait();

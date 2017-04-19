@@ -14,7 +14,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class TarefasRetornandoValores
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             Task<int> Tsoma = Task.Run(() => TarefaSoma());
             Task<string> Tdata = Task.Run(() => TarefaDataDeHoje());

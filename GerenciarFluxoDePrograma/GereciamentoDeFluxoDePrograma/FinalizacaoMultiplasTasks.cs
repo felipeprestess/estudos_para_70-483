@@ -9,7 +9,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class FinalizacaoMultiplasTasks
     {
-        public static void Main()
+        public static void main(string[] args)
         {
 
             Task[] tasks = new Task[3];

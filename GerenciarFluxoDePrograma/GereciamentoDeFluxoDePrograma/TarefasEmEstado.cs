@@ -8,7 +8,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class TarefasEmEstado
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             Task<int> T = Task.Run(() => 
             {

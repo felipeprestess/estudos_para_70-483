@@ -15,7 +15,7 @@ namespace GereciamentoDeFluxoDePrograma
     class ThreadsDadosLocais
     {
         public static ThreadLocal<int> field = new ThreadLocal<int>(() => { return Thread.CurrentThread.ManagedThreadId; });
-        public static void Main()
+        public static void main(string[] args)
         {
             Thread t1 = new Thread(Metodo1);
             t1.Start();

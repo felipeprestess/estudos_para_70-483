@@ -13,7 +13,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class ThreadsParametros
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             Thread t = new Thread(new ParameterizedThreadStart(novaThread));
             t.Start(10);

@@ -11,7 +11,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class TarefaFilha
     {
-        public static void Main()
+        public static void main(string[] args)
         {
 
             Task<Int32[]> Pai = Task.Run(() =>

@@ -18,7 +18,7 @@ namespace GereciamentoDeFluxoDePrograma
 {
     class TesteThreads
     {
-        public static void Main()
+        public static void main(string[] args)
         {
             Thread t = new Thread(MetodoThread);
             t.Start();

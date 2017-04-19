@@ -11,7 +11,7 @@ namespace GereciamentoDeFluxoDePrograma
     {
         [ThreadStatic]
         public static int num;
-        public static void Main()
+        public static void main(string[] args)
         {
             Console.WriteLine("Thread: {0}",num);
 
