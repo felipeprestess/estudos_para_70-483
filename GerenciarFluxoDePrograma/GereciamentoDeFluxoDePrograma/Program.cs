@@ -11,11 +11,8 @@ namespace GereciamentoDeFluxoDePrograma
     {
         static void main(string[] args)
         {
-            
-<<<<<<< HEAD
-=======
 
->>>>>>> 509ebdf54d7ae78e7a872c5e5752f127335d2ef1
+            
         }
     }
 }
