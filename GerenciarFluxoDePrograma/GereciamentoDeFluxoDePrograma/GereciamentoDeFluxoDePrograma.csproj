@@ -52,6 +52,7 @@
     <Compile Include="EntendendoDelegate.cs" />
     <Compile Include="EntendendoDelegateComExpressaoLambda.cs" />
     <Compile Include="FinalizacaoMultiplasTasks.cs" />
+    <Compile Include="MesDiaCidadeParallelInvoke.cs" />
     <Compile Include="ParallelCancelandoLoops.cs" />
     <Compile Include="ParallelForEForeach.cs" />
     <Compile Include="ParallelInvoke.cs" />

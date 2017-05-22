@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 /*
  * Para utilizar o delegate anônimo, não é necessário criar um método para o delegate,
  * basta apenas atribuir ao parâmetro do delegate

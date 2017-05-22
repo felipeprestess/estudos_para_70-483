@@ -26,6 +26,12 @@ namespace GereciamentoDeFluxoDePrograma
                 return x + y;
             };
 
+            calc = (x, y) =>
+            {
+                Console.WriteLine("Resultado da Divisão");
+                return x / y;
+            };
+
             Console.WriteLine(calc(3, 4));
 
             Console.ReadKey();
